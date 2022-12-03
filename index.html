@@ -157,8 +157,8 @@ $glass_rabbit
 [[30대-&gt;page1]]
 [[40대-&gt;page2]]
 [[50대-&gt;page2]]
-[[60대-&gt;page2]]</tw-passagedata><tw-passagedata pid="10" name="page7" tags="" position="538.5,1311.5" size="100,100">{(set: $problems to (a: $p1, $p2, $p3, $p4, $p5))}
-(if: $a is 0 and all of $problems is false)[$newbie_rabbit &lt;br&gt; 아직 갱년기 증상을 별로 경험하지 못한 당신께 수습 토깽이를 보내드릴게요.]
+[[60대-&gt;page2]]</tw-passagedata><tw-passagedata pid="10" name="page7" tags="" position="538.5,1311.5" size="100,100">{(set: $problems to (a: $p1, $p2, $p3, $p4, $p5))
+(if: $a is 0 and all of $problems is false)[$newbie_rabbit &lt;br&gt; 아직 갱년기 증상을 별로 경험하지 못한 당신께 수습 토깽이를 보내드릴게요.]}
 (else:)[당신의 수호토끼는]{&lt;br&gt;
 	(if: $a is 0 and any of $problems is true)[$run_rabbit &lt;br&gt; 하나부터 열까지, 페이스메이커 토깽이]
 	(elseif: $a is 1)[$right_rabbit &lt;br&gt; 난감한 상황마다 등장! 꿀팁 가득 토깽이]
