@@ -86,14 +86,16 @@ tw-passage {
 **우리 수호토끼들이 찾아갈 수 있도록!**
 
 
-주변에 갱년기로 인한 신체적, 심리적 변화로 어려움을 겪고 계신 분들에게 수호토끼를 공유해 주세요🙇‍♀️
+주변에 갱년기로 인한 신체적, 심리적 변화로 어려움을 겪고 계신 분들에게 
+	
+주소창의 링크를 복사하여 수호토끼를 공유해 주세요🙇‍♀️
 
-[나만의 갱년기 수호토끼 찾기]&lt;testlink|
-
-혹시.. 저희가 궁금하신가요?! 저희에 대해 더 알고 싶으시다면 아래의 소개 페이지에 들어가 보세요!👻
+그런데 혹시.. 저희가 궁금하신가요?! 
+	
+저희에 대해 더 알고 싶으시다면 아래의 소개 페이지에 들어가 보세요!👻
 
 [다잇갱 소개 페이지]&lt;product|{
-(click: ?testlink)[(goto-url: &quot;https://joungeun-bae.github.io/dait_gang/&quot;)]
+
 (click: ?product)[(goto-url: &quot;https://joungeunbae.notion.site/Da_it_Gang-e32722755cc147a0a4dc4b6421c85a3e&quot;)]}</tw-passagedata><tw-passagedata pid="3" name="page2" tags="" position="535,438" size="100,100">
 요즘따라 나도 모르게 얼굴이 자주 빨개지는 당신,
 이때 당신이 할 행동은?!
@@ -181,20 +183,20 @@ $glass_rabbit
 	(elseif: $result is 0.6 or &quot;0.66&quot;)[$suit_rabbit &lt;br&gt; 혼자서는 어려운 생활습관 형성, 극복하갱 토깽이]
 	(elseif: $result is &quot;0.75&quot; or 0.8)[$chef_rabbit &lt;br&gt; 갱년기 생활의 감칠맛, 쉐프 토깽이]
 	(elseif: $result is 1)[$mic_rabbit &lt;br&gt; 갱년기 생활의 화룡점정, 말동무 토깽이]
-		&lt;br&gt;(b4r:&#39;solid&#39;)+(bg:(hsl:0,0,1,0.3))+(corner-radius:16)[특기: {&lt;br&gt;
-		(if: $p1 is true)[&lt;피부관리&gt;&lt;br&gt;]
-		(if: $p2 is true)[&lt;응원&gt;&lt;br&gt;]
-		(if: $p3 is true)[&lt;트레이닝&gt;&lt;br&gt;]
-		(if: $p4 is true)[&lt;아로마테라피&gt;&lt;br&gt;]
-		(if: $p5 is true)[&lt;자장가&gt;]
+		&lt;br&gt;(b4r:&#39;solid&#39;)+(bg:(hsl:0,0,1,0.3))+(corner-radius:16)[<특기>{&lt;br&gt;
+		(if: $p1 is true)[피부관리&lt;br&gt;]
+		(if: $p2 is true)[응원&lt;br&gt;]
+		(if: $p3 is true)[트레이닝&lt;br&gt;]
+		(if: $p4 is true)[아로마테라피&lt;br&gt;]
+		(if: $p5 is true)[자장가]
 		}]
 	}]
-{(if: $a is 0 and any of $problems is true)[**갱년기 증상을 어떻게 대처해야 할지 몰라 헤매고 있는 당신!**&lt;br&gt;**당신에게 딱 맞는 ‘페이스메이커 토깽이’를 보내드릴게요.**&lt;br&gt;**처음 마주하는 갱년기 증상에 길라잡이가 되어줄 거예요!**&lt;br&gt;**페이스메이커 토깽이와 함께라면 갱년기도 쉽게 완주할 수 있다는 사실 🤭**&lt;br&gt;**[속보] 토깽이가 당신을 만나러 뛰어오고 있대요!! 지금 만나러 가보세요 :)**]
-	(if: $result is 0.2 or &quot;0.25&quot; or &quot;0.33&quot;)[**처음 만난 갱년기 증상들을 나름대로 잘 대처하기 위해 노력하고 계시군요!**&lt;br&gt;**당신의 노력이 최고의 결과가 될 수 있도록 도와줄 ‘꿀팁 가득 토깽이’를 보내드릴게요.**&lt;br&gt;**딱 필요한 갱년기 증상 정보부터 증상별 최적의 대처법까지, 당신만을 위한 맞춤 꿀팁을 마구마구 알려줄 똑부러진 토깽이랍니다 🤓**&lt;br&gt;**지금도 당신을 위해 밤잠을 설치며 갱년기를 공부하고 있대요! 지금 만나러 가보세요 :)**]
-	(elseif: $result is 0.4 or 0.5)[**와우! 갱년기 증상에 스스로 대처하고 계시군요.**&lt;br&gt;**하지만.. 가끔 자신이 잘 하고 있는지 헷갈리고 불안한 당신께 ‘파티파티 토깽이’를 보내드릴게요!**&lt;br&gt;**발랄한 토깽이와 함께라면 걱정 많은 갱년기 생활도 즐겁게 날 수 있을 거예요.**&lt;br&gt;**걱정은 나누면 절반, 행복은 나누면 두 배가 된다. 아시죠? 💖**&lt;br&gt;**마침 토깽이의 웃음소리가 들리네요! 지금 만나러 가보세요 :)**]
-	(elseif: $result is 0.6 or &quot;0.66&quot;)[**갱년기 증상에 대해 찾아보고 혼자서 대처도 하시는 편이군요!**&lt;br&gt;**그런 당신의 실천을 도와줄 수 있는 ‘극복하갱 토깽이’를 보내드릴게요.**&lt;br&gt;**갱년기 생활 습관 개선.. 혼자서는 조금 어렵지 않으세요?**&lt;br&gt;**매번 실패하는 습관 만들기, 저희 토깽이와 함께라면 너무 쉬워진다는 점 🤭**&lt;br&gt;**딱 맞는 대처법도 알려주고 실천 관리까지 해주는 기특한 토깽이! 지금 만나러 가보세요 :)**]
-	(elseif: $result is &quot;0.75&quot; or 0.8)[**갱년기에 대해 스스로 찾아보고 대처도 하고 있는 당신은 갱년기 멋쟁이👍🏻**&lt;br&gt;**근데.. 생활이.. 살짝 싱겁지 않으세요?! 갱년기 생활에 감칠맛을 더해줄 ‘쉐프 토깽이’를 보내드릴게요.**&lt;br&gt;**이미 갱년기를 아주 멋지게 나고 있는 당신이지만, ‘쉐프 토깽이’는 당신 갱년기 생활의 정점을 찍어줄 거예요!**&lt;br&gt;**셰프 토깽이의 갱년기 일급비밀 레시피와 함께라면 자칫 심심할 수 있는 갱년기 생활이 더 맛있어진답니다.**&lt;br&gt;앗👀 **토깽이가 지금 레시피를 들고 오고 있대요! 지금 만나러 가보세요 :)**]
-	(elseif: $result is 1)[**겪고 있는 갱년기 증상과 증상별 대처방식을 잘 알고 있고, 실천까지 하고 계신 갱년기 박사님이시군요! 🎓**&lt;br&gt;**만나서 영광입니다.**&lt;br&gt;**존경을 담아 저희가 준비한 ‘말동무 토깽이’를 보내드릴게요!**&lt;br&gt;**말동무 토깽이와 수다를 나누며 당신의 갱년기 대처 노하우를 공유하다보면 보람이 팍팍 쌓일 거예요!**&lt;br&gt;**말도 많고 정도 많은 우리 토깽이가 오고 있네요! 지금 만나러 가보세요 :)**]
+{(if: $a is 0 and any of $problems is true)[**갱년기 증상을 어떻게 대처해야 할지 몰라 헤매고 있는 당신!**&lt;br&gt;&lt;br&gt;**당신에게 딱 맞는 ‘페이스메이커 토깽이’를 보내드릴게요.**&lt;br&gt;&lt;br&gt;**처음 마주하는 갱년기 증상에 길라잡이가 되어줄 거예요!**&lt;br&gt;&lt;br&gt;**페이스메이커 토깽이와 함께라면 갱년기도 쉽게 완주할 수 있다는 사실 🤭**&lt;br&gt;&lt;br&gt;**[속보] 토깽이가 당신을 만나러 뛰어오고 있대요!! 지금 만나러 가보세요 :)**]
+	(if: $result is 0.2 or &quot;0.25&quot; or &quot;0.33&quot;)[**처음 만난 갱년기 증상들을 나름대로 잘 대처하기 위해 노력하고 계시군요!**&lt;br&gt;&lt;br&gt;**당신의 노력이 최고의 결과가 될 수 있도록 도와줄 ‘꿀팁 가득 토깽이’를 보내드릴게요.**&lt;br&gt;&lt;br&gt;**딱 필요한 갱년기 증상 정보부터 증상별 최적의 대처법까지, 당신만을 위한 맞춤 꿀팁을 마구마구 알려줄 똑부러진 토깽이랍니다 🤓**&lt;br&gt;&lt;br&gt;**지금도 당신을 위해 밤잠을 설치며 갱년기를 공부하고 있대요! 지금 만나러 가보세요 :)**]
+	(elseif: $result is 0.4 or 0.5)[**와우! 갱년기 증상에 스스로 대처하고 계시군요.**&lt;br&gt;&lt;br&gt;**하지만.. 가끔 자신이 잘 하고 있는지 헷갈리고 불안한 당신께 ‘파티파티 토깽이’를 보내드릴게요!**&lt;br&gt;&lt;br&gt;**발랄한 토깽이와 함께라면 걱정 많은 갱년기 생활도 즐겁게 날 수 있을 거예요.**&lt;br&gt;&lt;br&gt;**걱정은 나누면 절반, 행복은 나누면 두 배가 된다. 아시죠? 💖**&lt;br&gt;&lt;br&gt;**마침 토깽이의 웃음소리가 들리네요! 지금 만나러 가보세요 :)**]
+	(elseif: $result is 0.6 or &quot;0.66&quot;)[**갱년기 증상에 대해 찾아보고 혼자서 대처도 하시는 편이군요!**&lt;br&gt;&lt;br&gt;**그런 당신의 실천을 도와줄 수 있는 ‘극복하갱 토깽이’를 보내드릴게요.**&lt;br&gt;&lt;br&gt;**갱년기 생활 습관 개선.. 혼자서는 조금 어렵지 않으세요?**&lt;br&gt;&lt;br&gt;**매번 실패하는 습관 만들기, 저희 토깽이와 함께라면 너무 쉬워진다는 점 🤭**&lt;br&gt;&lt;br&gt;**딱 맞는 대처법도 알려주고 실천 관리까지 해주는 기특한 토깽이! 지금 만나러 가보세요 :)**]
+	(elseif: $result is &quot;0.75&quot; or 0.8)[**갱년기에 대해 스스로 찾아보고 대처도 하고 있는 당신은 갱년기 멋쟁이👍🏻**&lt;br&gt;&lt;br&gt;**근데.. 생활이.. 살짝 싱겁지 않으세요?! 갱년기 생활에 감칠맛을 더해줄 ‘쉐프 토깽이’를 보내드릴게요.**&lt;br&gt;&lt;br&gt;**이미 갱년기를 아주 멋지게 나고 있는 당신이지만, ‘쉐프 토깽이’는 당신 갱년기 생활의 정점을 찍어줄 거예요!**&lt;br&gt;&lt;br&gt;**셰프 토깽이의 갱년기 일급비밀 레시피와 함께라면 자칫 심심할 수 있는 갱년기 생활이 더 맛있어진답니다.**&lt;br&gt;&lt;br&gt;앗👀 **토깽이가 지금 레시피를 들고 오고 있대요! 지금 만나러 가보세요 :)**]
+	(elseif: $result is 1)[**겪고 있는 갱년기 증상과 증상별 대처방식을 잘 알고 있고, 실천까지 하고 계신 갱년기 박사님이시군요! 🎓**&lt;br&gt;&lt;br&gt;**만나서 영광입니다.**&lt;br&gt;&lt;br&gt;**존경을 담아 저희가 준비한 ‘말동무 토깽이’를 보내드릴게요!**&lt;br&gt;&lt;br&gt;**말동무 토깽이와 수다를 나누며 당신의 갱년기 대처 노하우를 공유하다보면 보람이 팍팍 쌓일 거예요!**&lt;br&gt;&lt;br&gt;**말도 많고 정도 많은 우리 토깽이가 오고 있네요! 지금 만나러 가보세요 :)**]
 	<br>}
 [나를 위한 토깽이 만나러 가기]&lt;product|
 [갱년기 증상 정보와 증상 대처법 알아보기]&lt;product|
@@ -202,7 +204,8 @@ $glass_rabbit
 (enchant: ?loading&#39;s chars, via (t8n-delay:pos * 400) + (t8n:&#39;instant&#39;))
 [수호토끼가 선발되는 중...]&lt;loading|
 (live: 6s)[(goto:&#39;page7&#39;)]</tw-passagedata><tw-passagedata pid="12" name="footer" tags="footer" position="618,281" size="100,100">
-(text-colour:grey)[^^22-2 서울대학교 사용자중심디자인, 팀 &lt;화석연료&gt;^^]
+(text-colour:grey)[^^22-2 서울대학교 사용자중심디자인
+팀 &lt;화석연료&gt;^^]
 {
 (set: $newbie_rabbit to &#39;&lt;img src=&quot;https://lh3.googleusercontent.com/fife/AAbDypCGIMDBWpjrJyYNRL2KND9TpbB_CyZj6o_qTukwmkI6V-3lpYsFf7zo5LJPxxp0Ip_8I_fQZnO3gIgyHadmefmIF96cpe_tF-pqVjraG6FyqST8DhA1PTiKky78l0J7FLXBZUPq8seSZcFeZ8Uwai93WaBpnfkmGXwKM-fpjg5SygHD4-igdRN-1XDaKSfyJxDaHRD8D_BThOneDi8HPtgrDshe4x8QVDGCIY9aFzwq9zbUVN2z3iumW2l1z-ILq3GT6KrEbYxb2fS0Dp_4ZLb6YCRW27aZNgW-170DcpJYN6YNYLnbG-pb1nW81Qj7-jhfdTD7t3r7CDSZgntBB5WTz8YkvHZSJupgvdQbOm06eb726JAMD09aM2WepRyFcp2aYJ9L74oUYJ5Wvu_-tks6yW56A7vhKC1sVG9FkYkKyoXaqMt4y54rrG9qCaw2_7AmBYQQO9LBqqd2to72mLsen--waSpoJ4iza_3762miTVb8joDbJTzU_BYf31plpDfESL0auxtfgkv__f4vcwAukQ0vJbu2MOezG92v_whk9zyMexHFg4mtatNIeDZVKCYjmZsdHukm1ptfbCXA4TM0Iir9As6TlbP6XbkMI-0LIJ-ucygvgn8zt7e40f61U30FeqY2_Lzl7tK1RpsBuHd0x2mW7yjlhepPhXWDZPQnJdpgMkLHoZ3Cy7ayS1ruNTp_Bcw1GZUukv_0kyiLCJ38aPqW-bnr23PCpgkjt01mRsBj-php1ryn6cBEzc3k3jmkpL_PpEV1FyioDDCtvonENRon7yDdye7ofOSqdJ8Enp5yJQApTaF6L9tnqlbTDwqMZuaMcO2qRJtguUobhe6Hj6mbyITzFgMULhpTKnJtSoWqPElQ9XeoSglIj_zvl_skyIo568a5z0YUkrfIzpNaf7euvgP48FiA1uueGsrcGInU4O_idJ3q6hvY9yN_gKPMOX2zy-QUh05BnIA0nRnPeH6NkVphMd3fkljBGBFn39vy-NcTaE4U6Eo1ZXFN3Ap0shHnx1eRxSTmMMPnMt27M5IuzjVBnHOhIUDGLbUstaLObrCpzGsaIr2YXWvQiUkH9Olp1jkOeZUipXy6SJBggOLFWqrYS82f3Vov1rkwc-A75XrsltfLve5X392my0dgT_miGyF176py4w35nuedYWnHCNN-qH71rR3oU-7EHrzNrWQZIIPNkovkJNkYpg5-9SukV3NnUrvooOqmEk8ivClLQNNDOAiwV_T7IB1-hBYI8nLAFPuGsNHxDhSwgXuBD17Wj5STwm6jUr27zceXm5Bg5E2XiygzxrAXnKbNfh10_sPDrrDh6t9qMbp_sAWGoXMh-q4Do95m9iDh7FSVF8dXo-KuAuaG-VIrP6CZKmhMlNidFvSrxrCv9AU_33BgqcFhQS4MJCQhYRwKBOX5eYG6qZT87qM_-8ykjUB0mePJOp5-u7EIzgOkdCvAdYlvqYCL-7WzyA0KBhLfyRwqC4xz5xraoJFls5v1I0jyImsnzm9nOZNHJ0FQ=w2818-h1386&quot; width=300&gt;&#39;)
 (set: $run_rabbit to &#39;&lt;img src=&quot;https://lh3.googleusercontent.com/fife/AAbDypB3S-LUjR7wA_VUgAMqlbS0wu4PFBAyN8agF1EVx2yPmzM6XUikMzlRup27jSv6KqSTJEXIbbYJ_mtNrculf548-IEARM8VvYibDwWdQUtXQEclA9anVf_byIjfhJTsxGFPa4aWzzq5UUwo7SnCv-8E0tOVV5D7j6fSlOKZ63qKN_Uq3-34WD6SQKcLOh7G--qtJB5_E4AOmYW3njg-hekJ0W7vAvENLp1on7tkD2tc5iYWQ_SVio99KuhhLLTyquuYnSNgJFFqzjo44GHaXPmIM30ejg-PMmXss67CMyyi1VDH72-D3ha1dK5mtd2RETRWPWPUnP85cNqlzbacTUHScnD-8Z-GFGqgedybkwv0f9p7ilRs5BLx0yoTiDlzcEqTEj7exXhg-2TAXsJ7pULfhckq-Ptz9-EJHhezy_UBL1gFAotCi0C2d8uKFMtOFho6q60rIBAqEH6CCdkFVsNzCB5uDJcqvf1bRSNiNTP72wnRdr8JmYJgLZEwnKlcGh_UbwSj89agFjdVgyRaGmP1WqsKta6Zu6RLyBBS9_Um3opfeWL9pekAphrKDiQT7mzoHpmZHWrF_0bqEHy1QWmHp3Kj-_VyEE2kT1JFrRt5ZCr9qZBBa9zU3Xcem321cXLf-igQ2O6-Hta2lb6ZBQonhOtwdBJoS0jex2TSee9IR7FQYS0FL8zWFXXE5iNEZIvq4aU8b94ursoAvN6HaUYUAW0-7tnN-Q9mIlmsBXSweDSFXt5v_3YXYHKlyYJn37d2hoLfGeRb0Gh1aBZIKFgtKP_WZp4l62RREfAS8kL2xe4MiclrdejAkFNTKz1jIXkZKLg_zkUVe1dPvYMbKcJXS1OnX5cw_NdoD4yp5Z-qCBfeTiOB_qKDAQ48C5G5eGzYzumze4agcA7f_qigI505L0l0IB99nCJruXpNmpE2YEff5ry_EWw_RDCC-pNunuqI8qHdqeLnv8dlpaz7GB4XM76hgPHVqNqGZVo3iLyN0AcMARoyqIdFoD0Y1rK90IJZvJuO4cImrhuT52hM8XtHy8FgPTc1vjsjP8wIzcvSnGborpLohBGdypsxmASGBfYZGo1o6vPb4W_5EtxWJOmopFozDaDvTsZA_wlAMnXCBmb4TOVISKWeJgktPe2Wmvrs3e_GWr0E0-dUH4cirOZY_bl6pCjIoHjpvzklX5QLxObBqii7apvRKIvBF5J3u6KNe5-UlpjQ40GRknL82nsTnnyQjrjognVD-VaA-WvlY3Ncc00578MrzOGdBtPfGNP1jkTinzVtwPkOzKpOgzY4ZFNSL3dLntsBkRYhEaNL-n_489kEffPnnT2xfmvjFADbC4I0MzmYEfmxlPpVQxD8fJXZ9Q1HcKSPzCmsLUq1WaKOKwVBARtoZKlJPq-yUl2Z5GkWO-X27BXU9upMTvvu44eZw4nwgTynTf6peJoZS_VB5G88NWJSNUwzNzAUc5sQ6OPYrL-5WxzjpohSsACvpI2MB6UfOq1ri9MUM98vD8UNh0vi_iQ001mJ=w2818-h1386&quot; width=300&gt;&#39;)
